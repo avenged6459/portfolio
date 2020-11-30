@@ -1,0 +1,36 @@
+.competences{
+    margin: 0;
+    padding: 0;  
+    background: url(../img/bgCompetence.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 10% 0;
+
+}
+
+.iconeComp{
+    max-width: 40px;
+}
+.iconeCompgit{
+    max-width: 60px;
+}
+
+.listcomp{
+    font-size: 1.2rem;
+}
+
+/* ********************Medeia query mobile************************** */
+
+@media screen and (max-width: 600px) {
+     
+.iconeComp{
+    max-width: 30px;
+}
+.iconeCompgit{
+    max-width: 45px;
+}
+
+
+}
+

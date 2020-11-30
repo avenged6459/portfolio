@@ -1,0 +1,101 @@
+.Accueil{
+background: url(../img/bgAccueil.png);
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10%;
+    font-size: 1.1rem;
+    padding-bottom:10%;
+    
+}
+.jumbotronAccueil{
+    margin-left: 10%;
+    opacity: 0.9;
+    background: rgba(255,255,255,0.6);
+    padding:6%;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.moi{
+    max-width: 75%;
+    border-radius: 50%;
+}
+
+.iconeAccueil{
+    font-size: 2rem;
+    margin: 0 2%;
+}
+.icone{
+    text-align: center;
+}
+
+.infos{
+    text-align: left;
+    margin-left: 20%;
+}
+
+.iconeAccueil{
+    font-size: 1.5rem!important;
+    color: black!important;
+}
+
+
+/* ************************************Media query Tablette************************************************ */
+
+
+@media screen and (max-width: 992px) {
+    .jumbotronAccueil{
+        margin: 0;
+        width: 100%;
+        }
+        .moi{
+            max-width: 60%;
+            
+        }
+
+        .nom{
+            font-size: 1.6rem!important;
+        }
+       
+
+        .iconeAccueil{
+            font-size: 1.8rem;
+            margin: 0 5%; 
+        }
+        .icone{
+            text-align: center;
+        }
+  }
+
+/* ************************************Media query mobile************************************************ */
+
+@media screen and (max-width: 600px) {
+    
+        .jumbotronAccueil{
+        margin: 0;
+        width: 80%;
+        }
+
+        .moi{
+            max-width: 40%;
+            
+        }
+
+        .nom{
+            font-size: 1rem!important;
+        }
+        .titre{
+            font-size: 0.8rem;
+        }
+
+        .iconeAccueil{
+            font-size: 1.1rem;
+            margin: 0 5%;
+        }
+
+        .moi{
+            max-width: 90%;
+            border-radius: 50%;
+        }
+  }

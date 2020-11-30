@@ -1,0 +1,69 @@
+.Tarifs{
+    background: url(../img/bgTarifs.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color:black!important;
+}
+.card{
+    border: #CBC5EA!important;
+    box-shadow: 8px 8px 12px #aaa;
+    min-height: 100%!important;
+
+}
+
+.bodyCarte{
+    background-color: #CBC5EA;
+    
+}
+.far{
+    font-size: 1.3rem;
+    color: #fe5f55;
+}
+
+
+.prix{
+    border-bottom: black solid 4px;
+}
+
+.btnDevis{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border-radius: 30px!important;
+   
+}
+li{
+    line-height: 3rem;
+}
+
+/* *******************************Media query tablette**************************************** */
+
+@media screen and (max-width: 992px) {
+    
+    
+    .titreTarifs{
+       font-size: 1.2rem;
+        }
+       
+        .prix{
+            font-size: 1.1rem;
+        }
+        li{
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+        
+        
+
+        .btnDevis{
+            font-size: 0.7rem!important;
+            
+        }
+
+        
+  }
+
+
+
+

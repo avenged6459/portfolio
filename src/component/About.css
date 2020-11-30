@@ -1,0 +1,44 @@
+.About{
+    background: url(../img/about.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black ;
+    padding: 0 0 15% 0;
+}
+
+
+
+.iconeAbout{
+    font-size: 2.5rem;
+    color:#fe5f55;
+    border: #fe5f55 solid 3px;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+
+.aboutBG{
+    width: 60%;
+    z-index: 200;
+}
+.code{
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+/* ***********************media query mobile************************ */
+
+@media screen and (max-width: 600px) {
+    h4{
+        font-size: 1rem!important;
+        font-weight: 700!important;
+    }
+    p{
+        font-size: 0.9rem!important;
+    }
+    .iconeAbout{
+        font-size: 1.1rem!important;
+    }
+}
