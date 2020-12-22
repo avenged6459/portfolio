@@ -1,26 +1,25 @@
 .Accueil{
-background: url(../img/bgAccueil.png);
-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
     padding-top: 10%;
     font-size: 1.1rem;
-    padding-bottom:10%;
+    color: white;
     
 }
 .jumbotronAccueil{
+    background: url(../img/bannieres.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 10%;
     opacity: 0.9;
-    background: rgba(255,255,255,0.6);
-    padding:6%;
-    border-radius: 6px;
+    padding:8%;
+    border-radius: 7px!important;
     width: 80%;
+    -webkit-box-shadow: 3px 0px 76px 4px rgba(0,0,0,0.46)!important;
+    -moz-box-shadow: 3px 0px 76px 4px rgba(0,0,0,0.46)!important;
+    box-shadow: 3px 0px 76px 4px rgba(0,0,0,0.46)!important;
 }
 
-.moi{
-    max-width: 75%;
-    border-radius: 50%;
-}
 
 .iconeAccueil{
     font-size: 2rem;
@@ -37,7 +36,7 @@ background-size: cover;
 
 .iconeAccueil{
     font-size: 1.5rem!important;
-    color: black!important;
+    color: white!important;
 }
 
 

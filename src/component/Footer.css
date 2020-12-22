@@ -1,5 +1,482 @@
-.Footer{
-    background-color: black;
-    color: white;
+.title{
+  color: black;
+  font-size: 1.3rem!important;
+  font-weight: 500;
+}
+
+.textFooter{
+  color: black;
+  font-size: 1rem;
 
 }
+.btnML{
+    background-color: black!important;
+    color: white;
+}
+
+/* *************************************************** bouton reseaux sociaux************************************************************ */
+
+  /*button2b Twitter*/
+
+  .button2b {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, 1);
+    border-radius:50%;
+    border:2px solid rgba(100, 100, 200, 1);
+    margin-left:0px;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:0px;
+    position:relative;
+  }
+  
+  .button2b:hover {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, .1);
+    border-radius:50%;
+    border:4px solid rgba(100, 100, 200, .4);
+    cursor:pointer;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:3px;
+    position:relative;
+    transform: rotate(90deg);
+  }
+  /* icone twitter */
+  .button2b-content {
+    font-family:Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    line-height:45px;
+    right: 7px;
+    color: rgba(255, 255, 255, 1);
+    border-radius:50%;
+    width:50px;
+    position: relative;
+    transition: all 1s;
+    height:55px;
+    bottom:0px;
+  }
+  
+  .button2b-content:before{
+    content: 'twitter';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    color: rgba(100, 100, 200, 1);
+    top:50px;
+    font-size:8px;
+    font-weight:bold;
+    left: 0px;
+    right:0px;
+    bottom: 3px;
+    padding-left: 5px;
+    transform:rotate(-90deg)
+  }
+
+  .button2b:hover .button2b-content {
+    font-family:Helvetica;
+    font-size:10px;
+    font-weight:normal;
+    line-height:50px;
+    color: rgba(255, 255, 255, 0);
+    width:50px;
+    transition: all .5s;
+    background-color: rgba(100, 100, 200, 0);
+    height:60px;
+    bottom:60px;
+  }
+
+   /*button2b Linkedin*/
+
+.button2bLK {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, 1);
+    border-radius:50%;
+    border:2px solid rgba(100, 100, 200, 1);
+    margin-left:0px;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:0px;
+    position:relative;
+  }
+  
+  .button2bLK:hover {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, .1);
+    border-radius:50%;
+    border:4px solid rgba(100, 100, 200, .4);
+    cursor:pointer;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:3px;
+    position:relative;
+    transform: rotate(90deg);
+  }
+  
+  .button2bLK-content {
+    font-family:Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    line-height:45px;
+    right: 7px;
+    color: rgba(255, 255, 255, 1);
+    border-radius:50%;
+    width:50px;
+    position: relative;
+    transition: all 1s;
+    height:55px;
+    bottom:0px;
+  }
+  
+  .button2bLK-content:before{
+    content: 'Linkedin';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    color: rgba(100, 100, 200, 1);
+    top:50px;
+    font-size:7px;
+    font-weight:bold;
+    left: 0px;
+    right:0px;
+    bottom: 3px;
+    padding-left: 5px;
+    transform:rotate(-90deg)
+  }
+
+  .button2bLK:hover .button2bLK-content {
+    font-family:Helvetica;
+    font-size:10px;
+    font-weight:normal;
+    line-height:50px;
+    color: rgba(255, 255, 255, 0);
+    width:50px;
+    transition: all .5s;
+    background-color: rgba(100, 100, 200, 0);
+    height:60px;
+    bottom:60px;
+  }
+
+
+    /*button2b Mail*/
+
+.button2bMail {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, 1);
+    border-radius:50%;
+    border:2px solid rgba(100, 100, 200, 1);
+    margin-left:0px;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:0px;
+    position:relative;
+  }
+  
+  .button2bMail:hover {
+    display:block;
+    width:40px;
+    height:40px;
+    background: rgba(100, 100, 200, .1);
+    border-radius:50%;
+    border:4px solid rgba(100, 100, 200, .4);
+    cursor:pointer;
+    transition: all .8s;
+    overflow:hidden;
+    bottom:3px;
+    position:relative;
+    transform: rotate(90deg);
+  }
+  
+  .button2bMail-content {
+    font-family:Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    line-height:45px;
+    right: 7px;
+    color: rgba(255, 255, 255, 1);
+    border-radius:50%;
+    width:50px;
+    position: relative;
+    transition: all 1s;
+    height:55px;
+    bottom:0px;
+  }
+  
+  .button2bMail-content:before{
+    content: 'E-mail';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    color: rgba(100, 100, 200, 1);
+    top:50px;
+    font-size:8px;
+    font-weight:bold;
+    left: 0px;
+    right:0px;
+    bottom: 3px;
+    padding-left: 5px;
+    transform:rotate(-90deg)
+  }
+
+  .button2bMail:hover .button2bMail-content {
+    font-family:Helvetica;
+    font-size:10px;
+    font-weight:normal;
+    line-height:50px;
+    color: rgba(255, 255, 255, 0);
+    width:50px;
+    transition: all .5s;
+    background-color: rgba(100, 100, 200, 0);
+    height:60px;
+    bottom:60px;
+  }
+
+.iconeMail{
+    color: white;
+    font-size: 20px;
+}
+
+/* *********************************************Media query  tablette************************************************************* */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .contact{
+        margin: 0;
+        padding: 0;
+    }
+    .map{
+        width: 680px;
+        height: 300px;
+    }
+    .forms{
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 1%;
+        margin-bottom: 3%;
+    }
+    h1{
+        font-size: 1.8rem!important;
+    }
+    .titreForms{
+        font-size: 1.2.5rem!important;
+    }
+    
+ }
+
+ /* *********************************************Media query mobile************************************************************* */
+ @media (max-width: 600px) {
+    .contact{
+        margin: 0;
+        padding: 0;
+    }
+    .map{
+        width: 350px!important;
+        height: 200px;
+    }
+    .forms{
+        border: 2px solid black;
+        border-radius: 16px;
+        padding: 1%;
+        margin-bottom: 3%;
+    }
+    h1{
+        font-size:1.2rem!important;
+    }
+    .titreForms{
+        font-size: 1rem!important;
+    }
+
+    .nameForm{
+        width: 80px;
+    }
+    .map{
+      width: 380px;
+      height: 200px;
+  }
+
+    /* ************************************bouton twitter***************************************** */
+
+    .button2b{
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+     
+    }
+    .button2b:hover {
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      
+    }
+
+    .button2b-content{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      font-size:10px;
+      line-height:65px; /*icone twitter*/
+      
+    }
+
+    .button2b-content:before{
+
+      content: 'twitter';
+      position: absolute;
+      background-color: rgba(255, 255, 255, 1);
+      width:50px;
+      height:50px;
+      border-radius:25px;
+      color: rgba(100, 100, 200, 1);
+      top:55px;
+      font-size:11px;
+      font-weight:bold;
+      right:0px;
+      padding-left:5px;
+      transform:rotate(-90deg)
+
+    }
+
+    .button2b:hover .button2b-content {
+     
+      font-size:10;
+      line-height:40px;
+      color: rgba(255, 255, 255, 0);
+      width:50px;
+      height:50px;
+      bottom:60px;
+      margin-left:0px;
+      padding-left: 0;
+    }
+    /* ************************************bouton linkedin***************************************** */
+
+    .button2bLK{
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+     
+    }
+    .button2bLK:hover {
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      
+    }
+
+    .button2bLK-content{
+      width: 45px;
+      height: 50px;
+      border-radius: 25px;
+      font-size:10px;
+      line-height:64px; /*icone twitter*/
+      
+    }
+
+    .button2bLK-content:before{
+
+      
+      position: absolute;
+      background-color: rgba(255, 255, 255, 1);
+      width:50px;
+      height:50px;
+      border-radius:25px;
+      color: rgba(100, 100, 200, 1);
+      top:55px;
+      font-size:8px;
+      font-weight:bold;
+      right:0px;
+      padding-left:5px;
+      transform:rotate(-90deg)
+
+    }
+
+    .button2bLK:hover .button2bLK-content {
+     
+      font-size:10;
+      line-height:40px;
+      color: rgba(255, 255, 255, 0);
+      width:50px;
+      height:50px;
+      bottom:60px;
+      margin-left:0px;
+      padding-left: 0;
+    }
+
+    
+    /* ************************************bouton mail***************************************** */
+
+    .button2bMail{
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+     
+    }
+    .button2bMail:hover {
+      display:block;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      
+    }
+
+    .button2bMail-content{
+      width: 45px;
+      height: 50px;
+      border-radius: 25px;
+      font-size:10px;
+      line-height:65px; /*icone Mail*/
+      
+    }
+
+    .button2bMail-content:before{
+
+     
+      position: absolute;
+      background-color: rgba(255, 255, 255, 1);
+      width:50px;
+      height:50px;
+      border-radius:25px;
+      color: rgba(100, 100, 200, 1);
+      top:55px;
+      font-size:11px;
+      font-weight:bold;
+      right:0px;
+      padding-left:5px;
+      transform:rotate(-90deg)
+
+    }
+
+    .button2bMail:hover .button2bMail-content {
+     
+      font-size:10;
+      line-height:40px;
+      color: rgba(255, 255, 255, 0);
+      width:50px;
+      height:50px;
+      bottom:60px;
+      margin-left:0px;
+      padding-left: 0;
+    }
+    
+ }

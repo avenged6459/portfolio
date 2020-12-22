@@ -1,15 +1,22 @@
+.App{
+  background: #BFD3C1;
+}
 h1{
   text-align: center;
   font-weight: bold!important;
   font-size: 2rem!important;
-  padding: 3% 0;
+  padding: 5% 0 0 0;
 }
 
 h2{
   text-align: center;
   font-weight: 500!important;
   font-size: 1.8rem!important;
-  padding: 0 0 5% 0!important;
+  padding: 5% 0!important;
+}
+li{
+  list-style: none;
+
 }
 a{
   background: black;

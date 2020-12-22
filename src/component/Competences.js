@@ -24,7 +24,7 @@ class Competence extends Component {
         <h2>Langages</h2>
 
         <div className="container">
-          <div class="row text-center">
+          <div className="row text-center">
             <div className=" col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 ">
               <p className="listcomp">HTML5</p>
               <img className="iconeComp" src={HTML} alt="Icone html5" />

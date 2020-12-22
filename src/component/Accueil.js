@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { MDBAnimation } from "mdbreact";
-import Moi from "../img/moi.png";
 import "./Accueil.css";
 
 class Accueil extends Component {
@@ -20,9 +19,6 @@ class Accueil extends Component {
                     <h2 className="infos">Développeur front-end</h2>
                     <p className="infos"> <i class="iconeAccueil far fa-envelope"></i>jerome.carriere6459@gmail.com</p>
                     <p className="infos"><i class="iconeAccueil fas fa-mobile-alt"></i> 06.12.57.73.63</p>
-                  </div>
-                  <div className="col-xl-5 col-lg-5 col-md-6 col-sm-5 col-5">
-                    <img className="moi" src={Moi} alt="Photo de moi meme" />
                   </div>
                 </div>
                 
